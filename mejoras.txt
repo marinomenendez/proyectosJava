@@ -1,0 +1,12 @@
+﻿
+* Docker
+  Docker es una plataforma creada para desarrollar, implementar y ejecutar aplicaciones dentro de contenedores.
+  Por tanto, sería posible empaquetar esta aplicación y desplegarla en un contenedor con esta herramienta.
+
+* Documentación de la API
+  Se pueden utilizar herramientas como swagger o spring REST Docs.
+ 
+* Securidad de la API
+  Se podría aplicar un Bearer Token(JWT) como valor de la cabecera Authorization, para securizar las comunicaciones entre cliente y servidor, de forma que
+  cuando el cliente realiza una petición, se comprueba si éste tiene permisos para acceder al recurso haciendo una petición al servidor de autorización.
+
